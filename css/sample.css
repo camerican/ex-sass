@@ -1,3 +1,7 @@
+.test {
+  color: #468cff;
+  background-color: rgba(70, 140, 255, 0.5); }
+
 .box.half-show {
   background-color: rgba(0, 0, 0, 0.5); }
 
@@ -8,13 +12,13 @@ body {
   font-size: 32px; }
 
 h1 {
-  color: #ff0000;
+  color: #3366ff;
   background-color: #999; }
 
 .box {
   width: 250px;
   height: 250px;
-  background-color: #ff0000;
+  background-color: #3366ff;
   display: inline-block; }
 
 nav {
@@ -25,7 +29,7 @@ nav {
     list-style: none; }
   nav li {
     display: inline-block;
-    color: #ff0000;
+    color: #3366ff;
     padding: 0 15px; }
     nav li a {
       text-decoration: none; }
