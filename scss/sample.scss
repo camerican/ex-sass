@@ -1,0 +1,53 @@
+@import 'colors-holiday';
+
+$font-size: 32px;
+$menu-size: 1.25em;
+
+@mixin black-background($alpha) {
+  background-color: rgba(0,0,0,$alpha);
+}
+
+.box.half-show {
+  @include black-background(0.5);
+}
+.box.ghost {
+  @include black-background(0.1);
+}
+
+body {
+  font-size: $font-size;
+}
+
+h1 {
+  color: $color-primary;
+  background-color: $color-background;
+}
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: $color-primary;
+  display: inline-block;
+}
+nav {
+  width: 100%;
+  text-align: center;
+  font-size: $menu-size;
+
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    color: $color-primary;
+    padding: 0 15px;
+
+    a {
+     text-decoration: none; 
+    }
+  }
+  li:hover {
+    background-color: $color-background;
+    border-radius: 15px;
+  }
+}
+
